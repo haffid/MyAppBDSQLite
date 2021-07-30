@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CRUD MASCOTAS"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_margin="20sp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="#184A9F"
+
+        />
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:src="@drawable/ic_pet"
+        android:layout_gravity="center_horizontal"
+
+        />
+    <Button
+        android:id="@+id/btnInsertar"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40sp"
+        android:text="Insertar mascota"
+        android:backgroundTint="#27B1F1"
+        android:onClick="pulsar"
+        />
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="250sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="Buscar mascota"
+        android:backgroundTint="#27B1F1"
+        android:onClick="pulsar"
+        />
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:text="Listado de mascotas"
+        android:backgroundTint="#27B1F1"
+        android:onClick="pulsar"
+        />
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:text="Actualizar mascota"
+        android:backgroundTint="#27B1F1"
+        android:onClick="pulsar"
+        />
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10sp"
+        android:text="Eliminar mascota"
+        android:backgroundTint="#27B1F1"
+        android:onClick="pulsar"
+        />
+
+
+</LinearLayout>

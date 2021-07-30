@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MA_Insertar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="Insertar Mascota"
+        android:gravity="center"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/edtNombreMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:hint="Nombre de Mascota"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/edtRazaMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:hint="Raza de Mascota"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/edtColorMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:hint="Color de Mascota"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/edtEdadMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:hint="Edad de Mascota"
+        android:textSize="25sp"
+        />
+    <Button
+        android:id="@+id/btnInsertarMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25sp"
+        android:text="Insertar"
+        android:textSize="20sp"
+        android:onClick="click"
+        />
+
+</LinearLayout>
